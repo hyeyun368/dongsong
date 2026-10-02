@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  background: #fff8f0;
+  color: #333;
+}
+
+.card {
+  text-align: center;
+  padding: 48px 40px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0 0 24px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #777;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  background: #ff7a45;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e8652f;
+}
+
+button.secondary {
+  background: #eee;
+  color: #555;
+}
+
+button.secondary:hover {
+  background: #ddd;
+}
+
+a {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #999;
+}
